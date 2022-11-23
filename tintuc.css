@@ -1,0 +1,403 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+ .header{
+    width:100%; 
+    height:100px; 
+    background-color:white; 
+    margin-bottom:25px;
+ }
+
+ .header .container{
+    width:1000px; 
+    height:100px; 
+    margin:auto; 
+    background-color:white
+ }
+
+ .header .logo{
+    width:230px; 
+    height:100px;  
+    float: left;
+ }
+
+ .header .right{
+    width:770px; 
+    height:100px; 
+    float:left
+ }
+
+ #anhnen{
+   width:770px; 
+   height:100px; 
+   float:left;
+}
+
+ .conten{
+   width: 100%; 
+   height:2150px; 
+   background-color:white;  
+   font-family: arial; 
+   font-size: 13px;
+}
+
+ .conten .container{
+    width: 1000px; 
+    height:2150px; 
+    background-color:white;  
+    margin:auto; 
+    font-family: arial; 
+    font-size: 13px;
+ }
+
+ .contenchinh{
+   width: 100%; 
+   height:2150px; 
+   background-color:white;  
+   font-family: arial; 
+   font-size: 13px;
+}
+
+ .conten1{
+    width: 1000px; 
+    height:2150px; 
+    background-color:white;  
+    margin:auto; 
+    font-family: arial; 
+    font-size: 13px;
+ }
+
+ 
+
+
+ .menu1 {
+    width:1000px; 
+    height:45px; 
+    background-color:limegreen; 
+    font-weight: bold;
+ }
+ #navbar li:hover{
+    background-color: green;
+ }
+
+ #navbar {
+   list-style-type:none; 
+    margin:0; 
+    padding: 0;
+ }
+
+ #navbar > li {
+    margin-left:10px;
+    height:45px;
+    background-color:limegreen; 
+    line-height:45px; 
+    text-align: center; 
+    float:left;
+    width:100px;
+ }
+
+ #navbar > li a {
+    display:block; 
+    text-decoration: none; 
+    color:white;
+ }
+
+ #navbar .sub-menu{
+   list-style-type:none; 
+   margin:0px; 
+   padding:0px;
+   display:none;
+}
+
+#navbar .sub-menu > li{
+   width:150px; 
+   height: 25px; 
+   line-height:25px; 
+   border-top:1px solid grey; 
+   background-color:limegreen; 
+   text-align: center;
+}
+
+#navbar li:hover .sub-menu {
+   display: block;
+ }
+
+ #navbar li:hover >a {
+   background-color: green;
+ }
+
+ .conten1{
+    width:800px; 
+    height:600px; 
+    background-color: white; 
+    margin:0px;
+ }
+
+ .contentren{
+    width:800px;
+    height:350px; 
+    background-color: cadetblue; 
+    font-family: arial;
+    position: relative;
+    margin-top:80px;
+ }
+
+ .div1contentren{
+    width:450px; 
+    height:280px; 
+    background-color: white; 
+    float:left
+ }
+
+ .anhcontentren{
+    width:450px; 
+    height:280px;
+ }
+
+ .div2contentren{
+    width:340px; 
+    height:280px; 
+    background-color: cadetblue; 
+    float:left; 
+    margin-left:10px;
+ }
+
+ #acontentren{
+    text-decoration: none; 
+    color:black; 
+    font-weight: bold;
+ }
+
+ .contenduoi{
+    width:800px;
+    height:250px; 
+    background-color:cadetblue;
+    margin:0px; 
+    font-family: arial;;
+ }
+
+ .div1contenduoi{
+    width:250px; 
+    height:250px; 
+    background-color:cadetblue; 
+    float: left
+ }
+
+ .anhcontenduoi{
+    width:250px; 
+    height:190px;
+ }
+
+ a[href="https://cafeland.vn/tin-tuc/chia-se-cua-nha-dau-tu-ve-tiem-nang-tai-phan-khu-the-eco-point-108030.html"]{
+    text-decoration:none; 
+    font-weight: bold; 
+    color:black;
+ }
+
+ .div2contenduoi{
+    width:250px; 
+    height:250px; 
+    background-color:cadetblue; 
+    float: left; 
+    margin-left:25px;
+ }
+
+ .conten2{
+    width:1000px; 
+    height:1060px; 
+    background-color:white; 
+    margin-top:20px; 
+    font-size: 13px;;
+ }
+ 
+ a[href="http://www.nhadatviet247.net/chuyen-muc/thi-truong.html"]:hover{
+    text-decoration: underline;
+ }
+
+ .conten2trai{
+    width: 280px; 
+    height:1030px; 
+    background-color:white; 
+    float: left;
+ }
+
+ .khungconten2trai{
+    border: 1px grey solid; 
+    width:280px; 
+    height:435px; 
+    background-color:cadetblue;
+ }
+
+ .tieudeconten2trai{
+    width:270px; 
+    height:35px; 
+    background-color:green; 
+    color:white; 
+    font-weight: bold; 
+    line-height:35px;
+    padding-left:10px;
+ }
+
+ #thanconten2trai{
+    width:280px; 
+    height:400px; 
+    background-color:white; 
+    color:white; 
+    font-weight: bold; 
+    line-height:35px;
+ }
+
+ #naba{
+    list-style-type:none; 
+    margin:0; 
+    padding: 0;
+ }
+
+ #naba > li a{
+    margin-left:10px; 
+    color:green;
+    font-weight:bold; 
+    text-decoration: none;
+ }
+
+.conten2duoi{
+    width:280px; 
+    height:500px; 
+    background-color:cadetblue; 
+    border: 1px grey solid;
+}
+
+#naba1{
+    list-style-type:none; 
+    margin:0; 
+    padding: 0;
+}
+
+#naba1 >li a[href="http://www.nhadatviet247.net/chuyen-muc/thi-truong.html"]:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+#naba1 > li a{
+    color:black; 
+    text-decoration: none;
+}
+
+
+
+.khungconten2phai{
+    width: 680px; 
+    height:1030px;
+    background-color:white; 
+    float: left;
+    margin-left:20px;
+}
+
+.div1conten2phai{
+    width:610px; 
+    height:100px; 
+    background-color:white; 
+    position: relative;
+}
+
+.anhconten2phai{
+    width:200px; 
+    height:100px;
+}
+
+.p{
+    position:absolute; 
+    right:5px; 
+    top:0px; 
+    width:400px; 
+    height:150px;
+}
+
+.chuthich{
+    width:1000px; 
+    height:300px; 
+    background-color:lightgrey; 
+    font-family: arial;
+  }
+  .o{
+    width:235px; 
+    height:280px; 
+    background-color: lightgrey; 
+    margin:20px 0px 0px 10px; 
+    float:left;
+  }
+  .o1{
+    margin:0px; 
+    padding:0px; 
+    list-style-type: none;
+    font-size:13px;
+  }
+  .a{
+    text-align: left; 
+    text-decoration: none; 
+    vertical-align: 10px; 
+    color:black; 
+    font-weight: bold;
+  }
+ 
+  a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]
+  {
+    text-decoration: none; 
+    vertical-align: 5px; 
+    color:black;
+  }
+ 
+  a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]:hover
+  {
+    text-decoration: underline; 
+    vertical-align: 5px; 
+    color:red;
+  }
+ 
+  .footer{
+    width:100%; 
+    height: 200px; 
+    background-color:white; 
+    font-family: arial;
+    font-size: 13px;
+  }
+  .footer .top{
+    width:1000px; 
+    height:35px; background-color: green; 
+    line-height:35px; 
+    text-align:center; 
+    margin: auto; 
+    font-weight: bold;
+  }
+  .footer .bottom{
+    width:1000px; 
+    height:165px; 
+    background-color:white;
+    margin: auto;  
+    font-family: arial;
+  }
+  a[href="http://www.nhadatviet247.net/bando.html"]
+  {
+    text-decoration: none; 
+    color:white
+  }
+  .pfooter{
+    text-align:center;
+  }
+  #b{
+   width:400px; 
+   height:200px;
+  }
+
+  a[href="http://www.nhadatviet247.net/bando.html"]:hover
+ {
+   text-decoration: underline;
+ }
+ 
+ 
+ 
+ 
+  
+ 
+ 

@@ -1,0 +1,470 @@
+body{
+   margin:0; 
+   padding:0;
+}
+
+.header{
+      width:100%; 
+      height:100px; 
+      background-color:white; 
+      margin-bottom:25px;
+   }
+
+      .header .container{
+         width:1000px; 
+         height:100px; 
+         margin:auto; 
+         background-color:white
+      }
+
+      .header .logo{
+         width:230px; 
+         height:100px;  
+         float: left;
+      }
+
+      .header .right{
+         width:770px; 
+         height:100px; 
+         float:left;
+      }
+
+      #anhnen{
+         width:770px; 
+         height:100px; 
+         float:left;
+      }
+
+.conten{
+      width: 100%; 
+      height:2230px; 
+      background-color: white;
+      font-family: arial; 
+      font-size: 13px;
+   }
+
+.conten .container{
+   width: 1000px; 
+   height:2230px; 
+   margin:auto; 
+   background-color: white;
+   font-family: arial; 
+   font-size: 13px;
+}
+
+      .menu1 {
+         width:1000px; 
+         height:45px; 
+         background-color:limegreen; 
+         font-weight: bold;
+         margin-bottom:80px;
+      }
+
+      #navbar li:hover{
+         background-color: green;
+      }
+
+      #navbar {
+      list-style-type:none; 
+         margin:0; 
+         padding: 0;
+      }
+
+      #navbar > li {
+         height:45px;
+         background-color:limegreen; 
+         line-height:45px; 
+         text-align: center; 
+         float:left;
+         width:100px;
+         margin-left:10px;
+      }
+
+      #navbar > li a {
+         display:block; 
+         text-decoration: none; 
+         color:white;
+      }
+
+      #navbar .sub-menu{
+         list-style-type:none; 
+         margin:0px; 
+         padding:0px;
+         display:none;
+      }
+
+      #navbar .sub-menu > li{
+         width:150px; 
+         height: 25px; 
+         line-height:25px; 
+         border-top:1px solid grey; 
+         background-color:limegreen; 
+         text-align: center;
+      }
+
+      #navbar li:hover .sub-menu {
+         display: block;
+      }
+
+      #navbar li:hover >a {
+         background-color: green;
+      }
+
+      .khungnava{
+         width:1000px; 
+         height:1800px; 
+         background-color: white;
+      }
+
+      .nava{
+         width:300px; 
+         height:1800px; 
+         background-color: white; 
+         float: left
+      }
+
+      .nava1{
+         width:300px;
+         height:400px; 
+         background-color:white; 
+         border: solid 1px grey; 
+         font-family: arial;
+      }
+
+      .tieude{
+         color: white; 
+         font-weight: bold;
+         width:290px;height:35px; 
+         background-color:limegreen; 
+         line-height:35px; 
+         padding-left:10px;
+      }
+
+      .table1{
+         font-family: arial; 
+         font-size: 13px;
+      }
+
+      .select1{
+         width:190px;
+         height:30px;
+      }
+
+      #button{
+         background-color:limegreen; 
+         color:white; 
+         font-weight: bold; 
+         margin: 5px 0px 0px 120px;
+         border:none;
+         height:20px;
+      }
+
+      .nava2{
+         width:300px; 
+         height:500px;
+         background-color:white; 
+         margin-top:10px; 
+         border: solid 1px grey; 
+      }
+
+      .table2{
+         color:forestgreen; 
+         font-family: arial; 
+         font-size: 13px;
+      }
+
+      .tr{
+         width:300px; 
+         height:30px;
+      }
+
+      .anhnava2{
+         margin:0px 15px 0px 15px;
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng.html"]{
+         text-decoration: none; 
+         color:green
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng.html"]:hover{
+         color:green;
+         font-weight: bold;
+      }
+
+      .content{
+         width:660px;
+         height:1800px; 
+         background-color:white; 
+         float: left;
+         margin-left:40px;
+         font-family: arial; 
+      }
+
+      .content1{
+         width:660px; 
+         height:380px; 
+         background-color:white;  
+         border: solid 1px grey;
+      }
+
+      .tieudeconten{
+         font-weight:bold; 
+         width:650px;line-height:35px; 
+         height:35px; background-color:limegreen; 
+         padding-left:10px; 
+         color:white;
+      }
+
+      .table3{
+         margin:0px; 
+         padding:0px; 
+         font-family: arial;
+      }
+
+      .p1{
+         margin:5px 0px 8px 8px; 
+         font-size: 15px;
+      }
+
+      a[href="http://www.nhadatviet247.net/phu-luong-pj893"]{
+         text-decoration:none; 
+         color:black; 
+         display:block;
+      }
+
+      .anhcontent1{
+         width:200px; 
+         height:120px;
+      }
+
+      .p2{
+         margin:5px 0px 5px 8px; 
+         font-size: 13px; 
+         color:grey
+      }
+
+      .content2{
+         width:660px; 
+         height:710px; 
+         background-color:white; 
+         margin-top:40px;
+         border:1px solid grey;
+         font-family: arial;
+      }
+
+      .tdconten2{
+         width:320px; 
+         height:35px; 
+         border:1px solid grey; 
+         position: relative;
+      }
+
+      .anhcontent2{
+         width:100px; 
+         height:75px;
+      }
+
+      .p1content2{
+         position: absolute; 
+         left:110px; 
+         top:-10px;font-weight:bold;
+         font-size: 15px;
+      }
+
+      a[href="http://www.nhadatviet247.net/102-truong-chinh-the-102-residences-pj334"]{
+         text-decoration:none; 
+         color:black;
+      }
+
+      .p2content2{
+         position: absolute; 
+         left:110px; 
+         top:30px; 
+         font-size: 13px;
+      }
+
+      .p3content2{
+         position: absolute; 
+         left:250px; 
+         top:30px; 
+         font-size: 13px; 
+         color:red; 
+      }
+
+      .p4content2{
+         position: absolute; 
+         left:110px; 
+         top:50px; 
+         font-size: 13px;
+      }
+
+      .content3{
+         width:660px; 
+         height:550px; 
+         background-color:white; 
+         margin-top:40px;
+         border:1px solid grey;
+      }
+
+      .o2content3{
+      width:660px; 
+      height:70px; 
+      background-color:white; 
+      position: relative;
+      }
+
+      #link{
+         float: right; 
+         font-weight:bold; 
+         left:10px; 
+         color:green; 
+         text-decoration: none;
+      }
+
+      a[href="http://www.nhadatviet247.net/102-truong-chinh-the-102-residences-pj334"]:hover{
+         text-decoration: underline;
+      }
+
+      .anhcontent3{
+      width:50px; 
+      height:50px; 
+      margin:10px 0px 10px 10px;
+      }
+
+      .p1content3{
+      position: absolute; 
+      left:70px; 
+      top:-5px; 
+      }
+
+      a[href="http://www.nhadatviet247.net/lexington-residence-pj5"]{
+      color:green; 
+      text-decoration:none;
+      }
+
+      a[href="http://www.nhadatviet247.net/lexington-residence-pj5"]:hover{
+      text-decoration:underline;
+      font-weight: bold;
+      }
+
+
+      .p2content3{
+      position: absolute; 
+      right:30px; 
+      top:-5px; 
+      color:chocolate;
+      }
+
+      .p3content3{
+      position: absolute; 
+      left:70px; top:30px; 
+      font-size: 14px; 
+      font-weight:bold;
+      color:red;
+      }
+
+      .p4content3{
+      position: absolute; 
+      left:260px; 
+      top:30px;
+      font-size: 14px; 
+      color:black;
+      }
+
+      .p5content3{
+      position: absolute; 
+      right:30px; 
+      top:30px; 
+      font-size: 14px; 
+      color:grey;
+      }
+
+      .chuthich{
+      width:1000px; 
+      height:300px; 
+      background-color:lightgrey; 
+      font-family: arial;
+      }
+      .o1{
+      width:235px; 
+      height:280px; 
+      background-color: lightgrey; 
+      margin:20px 0px 0px 10px; 
+      float:left;
+      }
+      .o{
+      margin:0px; 
+      padding:0px; 
+      list-style-type: none;
+      font-size:13px;
+      }
+      .a{
+      text-align: left; 
+      text-decoration: none; 
+      vertical-align: 10px; 
+      color:black; 
+      font-weight: bold;
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]
+      {
+      text-decoration: none; 
+      vertical-align: 5px; 
+      color:black;
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]:hover
+      {
+      text-decoration: underline; 
+      vertical-align: 5px; 
+      color:red;
+      }
+
+.footer{
+  width:100%; 
+  height: 200px; 
+  background-color:white; 
+  font-family: arial;
+  font-size: 13px;
+  margin-top:30px;
+}
+
+   .footer .container{
+      width:1000px; 
+      height:200px; 
+      background-color:white; 
+      margin:auto;
+   }
+      .footer .top{
+      width:1000px; 
+      height:35px; 
+      background-color: green; 
+      line-height:35px; 
+      text-align:center; 
+      font-weight: bold;
+      }
+      .footer .bottom{
+      width:1000px; 
+      height:165px; 
+      background-color:white; 
+      font-family: arial;
+      
+      }
+      a[href="http://www.nhadatviet247.net/bando.html"]
+      {
+      text-decoration: none; 
+      color:white
+      }
+      .pfooter{
+      text-align:center;
+      }
+      #b{
+      width:400px; 
+      height:200px;
+      }
+
+      a[href="http://www.nhadatviet247.net/bando.html"]:hover
+      {
+      text-decoration: underline;
+      }

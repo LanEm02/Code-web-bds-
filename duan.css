@@ -1,0 +1,339 @@
+body{
+   margin:0px;
+   padding:0px;
+}
+
+      .header{
+         width:100%; 
+         height:100px; 
+         background-color:white; 
+         margin-bottom: 25px;
+      }
+
+      .container{
+         width:1000px; 
+         height:100px; 
+         margin:auto; 
+         background-color:white;
+      }
+
+      .logo{
+         width:230px; 
+         height:100px;  
+         float: left;
+      }
+
+      .right{
+         width:770px; 
+         height:100px; 
+         float:left;
+      }
+
+      #anhnen{
+         width:770px; 
+         height:100px; 
+         float:left;
+      }
+.conten{
+   width:100%; 
+   height:1630px; 
+   background-color: white;  
+   font-family: arial; 
+   font-size: 13px;
+   margin-bottom:30px;
+}
+.conten .container{
+   width:1000px; 
+   height:1630px; 
+   background-color: white;  
+   margin:auto; 
+   font-size: 13px;
+}
+
+      .menu1{
+         width:1000px; 
+         height:45px; 
+         background-color:limegreen; 
+         font-weight: bold;
+         margin-bottom:80px;
+      }
+
+      #navbar li:hover{
+         background-color: green;
+      }
+
+      #navbar {
+      list-style-type:none; 
+         margin:0; 
+         padding: 0;
+      }
+
+      #navbar > li {
+         margin-left:10px;
+         height:45px;
+         background-color:limegreen; 
+         line-height:45px; 
+         text-align: center; 
+         float:left;
+         width:100px
+      }
+
+      #navbar > li a {
+         display:block; 
+         text-decoration: none; 
+         color:white;
+      }
+
+      #navbar .sub-menu{
+         list-style-type:none; 
+         margin:0px; 
+         padding:0px;
+         display:none;
+      }
+
+      #navbar .sub-menu > li{
+         width:150px; 
+         height: 25px; 
+         line-height:25px; 
+         border-top:1px solid grey; 
+         background-color:limegreen; 
+         text-align: center;
+      }
+
+      #navbar li:hover .sub-menu {
+         display: block;
+      }
+
+      #navbar li:hover >a {
+         background-color: green;
+      }
+
+      .khungconten{
+         width:1000px;
+         height:1150px;
+         background-color:white; 
+         margin:0px 0px 50px 0px;
+      }
+
+      .nava{
+         width:300px; 
+         height:1150px; 
+         background-color:white; 
+         float:left;
+      }
+
+      .nava1{
+         width:300px; 
+         height:200px; 
+         background-color:white; 
+         margin-bottom: 20px; 
+         font-family: arial; 
+         border: 1px solid grey;
+      }
+
+      .tieudenava1{
+         margin-bottom:10px;width:290px; 
+         height:35px; 
+         background-color:green; 
+         font-weight: bold;
+         color:white; 
+         padding-left: 10px; 
+         line-height: 35px;;
+      }
+
+      .select{
+         width:280px;
+         height:30px; 
+         margin:0px 10px 10px 10px;
+      }
+
+      #button{
+         background-color:green; 
+         color:white; 
+         font-weight: bold; 
+         margin: 5px 0px 0px 100px; ;
+      }
+
+      .nava2{
+         width:300px; 
+         height:850px; 
+         background-color:white; 
+         
+         font-size: 13px; 
+         border: 1px solid grey;
+      }
+
+      .div1{
+         position: relative; 
+         margin:5px; 
+         background: url('anh38.jpg'); 
+         width:290px; 
+         height:150px;
+      }
+
+      .div2{
+         position: relative; 
+         margin:5px; 
+         background: url('anh39.jpg'); 
+         width:290px; 
+         height:150px;
+      }
+
+      .div3{
+         position: relative; 
+         margin:5px; 
+         background: url('anh40.jpg'); 
+         width:290px; 
+         height:150px;
+      }
+
+      .div4{
+         position: relative; 
+         margin:5px; 
+         background: url('anh41.jpg'); 
+         width:290px; 
+         height:150px;
+      }
+
+      .div5{
+         position: relative; 
+         margin:5px; 
+         background: url('anh42.jpg'); 
+         width:290px; 
+         height:150px;
+      }
+
+      .div11{
+         position:absolute; 
+         width:290px; 
+         height:40px; top:110px; 
+         background-color: beige;
+      }
+
+      .pnava2{
+         margin:5px;
+      }
+
+      a[href="http://www.nhadatviet247.net/dream-home-pj2"]{
+         text-decoration:none; 
+         color:green;
+      }
+
+      a[href="http://www.nhadatviet247.net/dream-home-pj2"]:hover{
+         text-decoration: underline;
+      }
+
+      a[href="http://www.nhadatviet247.net/discovery-complex-pj4"]{
+         text-decoration:none; 
+         color:blue;
+      }
+
+      a[href="http://www.nhadatviet247.net/discovery-complex-pj4"]:hover{
+         text-decoration: underline;
+      }
+
+      .contenchinh{
+         width:680px; 
+         height:1150px; 
+         background-color:white; 
+         float:left;
+         margin-left: 20px; 
+         font-family: arial;
+      }
+
+      .conten1{
+         width:680px; 
+         height:1150px; 
+         background-color: white; 
+         font-size: 13px;
+         border: 1px solid grey;
+      }
+
+      #h2{
+         margin:0px; 
+         color:blue;
+      }
+
+      #p{
+         color:grey
+      }
+
+      .chuthich{
+         width:1000px; 
+         height:300px; 
+         background-color:lightgrey; 
+         font-family: arial;
+      }
+      .o{
+         width:235px; 
+         height:280px; 
+         background-color: lightgrey; 
+         margin:20px 0px 0px 10px; 
+         float:left;
+      }
+      .o1{
+         margin:0px; 
+         padding:0px; 
+         list-style-type: none;
+         font-size:13px;
+      }
+      .a{
+         text-align: left; 
+         text-decoration: none; 
+         vertical-align: 10px; 
+         color:black; 
+         font-weight: bold;
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]
+      {
+         text-decoration: none; 
+         vertical-align: 5px; 
+         color:black;
+      }
+
+      a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]:hover
+      {
+         text-decoration: underline; 
+         vertical-align: 5px; 
+         color:red;
+      }
+.footer{
+   width:100%; 
+   height: 200px; 
+   background-color:white; 
+   font-family: arial;
+   font-size: 13px;
+ }
+      .footer .top{
+         width:1000px; 
+         height:35px; background-color: green; 
+         line-height:35px; text-align:center; 
+         font-weight: bold;
+         margin:auto;
+      }
+      .footer .bottom{
+         width:1000px; 
+         height:165px; 
+         background-color:white; 
+         font-family: arial;
+         margin:auto;
+      }
+      a[href="http://www.nhadatviet247.net/bando.html"]
+      {
+         text-decoration: none; 
+         color:white
+      }
+      .pfooter{
+         text-align:center;
+      }
+      #b{
+      width:400px; 
+      height:200px;
+      }
+
+      a[href="http://www.nhadatviet247.net/bando.html"]:hover
+      {
+         text-decoration: underline;
+      }
+      

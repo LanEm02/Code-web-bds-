@@ -1,0 +1,229 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    width:100%; 
+    height:100px; 
+    background-color:white; 
+    margin-bottom: 25px;
+ }
+ 
+ .container{
+    width:1000px; 
+    height:100px; 
+    margin:auto; 
+    background-color:white
+ }
+ 
+ .logo{
+    width:230px; 
+    height:100px;  
+    float: left;
+ }
+ 
+ .right{
+    width:770px; 
+    height:100px;  
+    float:left;
+ }
+
+ #anhnen{
+   width:770px; 
+   height:100px; 
+   float:left;
+}
+ .conten{
+   width:100%; 
+   height:1010px; 
+   background-color: white;   
+   font-family: arial; 
+   font-size: 13px;
+   margin-bottom: 30px;
+}
+
+ 
+ .conten .container{
+    width:1000px; 
+    height:1010px; 
+    background-color: white;  
+    margin:auto; 
+    font-family: arial; 
+    font-size: 13px;
+ }
+ 
+ .menu1{
+    width:1000px; 
+    height:45px; 
+    background-color:limegreen; 
+    font-weight: bold;
+    margin-bottom:80px;
+ }
+ 
+ #navbar li:hover{
+    background-color: green;
+ }
+ 
+ #navbar {
+   list-style-type:none; 
+    margin:0; 
+    padding: 0;
+ }
+ 
+ #navbar > li {
+    margin-left:10px;
+    height:45px;
+    background-color:limegreen; 
+    line-height:45px; 
+    text-align: center; 
+    float:left;
+    width:100px;
+ }
+ 
+ #navbar > li a {
+    display:block; 
+    text-decoration: none; 
+    color:white;
+ }
+
+ #navbar .sub-menu{
+   list-style-type:none; 
+   margin:0px; 
+   padding:0px;
+   display:none;
+}
+
+#navbar .sub-menu > li{
+   width:150px; 
+   height: 25px; 
+   line-height:25px; 
+   border-top:1px solid grey; 
+   background-color:limegreen; 
+   text-align: center;
+}
+
+#navbar li:hover .sub-menu {
+   display: block;
+ }
+
+ #navbar li:hover >a {
+   background-color: green;
+ }
+
+ .khungconten{
+    width:1000px; 
+    height:550px; 
+    background-color:white;
+    font-family: arial; 
+    font-size: 14px;
+ }
+
+ .contentrai{
+    width:700px; 
+    height:550px; 
+    background-color:cadetblue;
+    margin-left:20px; 
+    float:left;
+ }
+
+ #pcontentrai{
+    color:blue; 
+    font-weight:bold
+ }
+
+ .contenphai{
+    width:200px; 
+    height:100px; 
+    background-color:cadetblue; 
+    margin-left:35px;  
+    float:left; 
+    text-align: center;
+ }
+
+ #pcontenphai{
+    color:red
+ }
+
+ .chuthich{
+    width:1000px; 
+    height:300px; 
+    background-color:lightgrey; 
+    font-family: arial;
+  }
+  .o{
+    width:235px; 
+    height:280px; 
+    background-color: lightgrey; 
+    margin:20px 0px 0px 10px; 
+    float:left;
+  }
+  .o1{
+    margin:0px; 
+    padding:0px; 
+    list-style-type: none;
+    font-size:13px;
+  }
+  .a{
+    text-align: left; 
+    text-decoration: none; 
+    vertical-align: 10px; 
+    color:black; 
+    font-weight: bold;
+  }
+ 
+  a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]
+  {
+    text-decoration: none; 
+    vertical-align: 5px; 
+    color:black;
+  }
+ 
+  a[href="http://www.nhadatviet247.net/rao-vat/cho-thue/nha-rieng/t2/ho-chi-minh.html"]:hover
+  {
+    text-decoration: underline; 
+    vertical-align: 5px; 
+    color:red;
+  }
+ 
+  .footer{
+    width:100%; 
+    height: 200px; 
+    background-color:white; 
+    font-family: arial;
+    font-size: 13px;
+  }
+  .footer .top{
+    width:1000px; 
+    height:35px; 
+    background-color: green; 
+    line-height:35px; 
+    text-align:center; 
+    margin:auto;
+    font-weight: bold;
+  }
+  .footer .bottom{
+    width:1000px; 
+    height:165px; 
+    background-color:white; 
+    margin:auto;
+    font-family: arial;
+  }
+  a[href="http://www.nhadatviet247.net/bando.html"]
+  {
+    text-decoration: none; 
+    color:white
+  }
+  .pfooter{
+    text-align:center;
+  }
+  #b{
+   width:400px; 
+   height:200px;
+  }
+
+  a[href="http://www.nhadatviet247.net/bando.html"]:hover
+ {
+   text-decoration: underline;
+ }
+ 
